@@ -14,3 +14,11 @@ export const appConfig: ApplicationConfig = {
     provideContent(withMarkdownRenderer(), withPrismHighlighter()),
   ],
 };
+
+export default interface PostAttributes {
+  title: string;
+  slug: string;
+  description: string;
+  coverImage: string;
+}
+
