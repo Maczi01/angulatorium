@@ -35,6 +35,4 @@ import {CardComponent} from "../../components/card/card.component";
 })
 export default class HomeComponent {
   readonly posts = injectContentFiles<PostAttributes>();
-
-
 }

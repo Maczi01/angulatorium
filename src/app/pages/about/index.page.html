@@ -1,0 +1,11 @@
+<div class="grid grid-cols-3 grid-rows-2 gap-4 p-4">
+  <app-hero-card
+    class="col-span-2 row-span-2"
+    [postTitle]="latestPost.attributes.title"
+    [postDescription]="latestPost.attributes.description"
+    [coverImage]="latestPost.attributes.coverImage"
+    [link]="latestPost.attributes.slug"
+  ></app-hero-card>
+  <app-about-me class="h-full"></app-about-me>
+  <app-contact-me class="h-full"></app-contact-me>
+</div>
