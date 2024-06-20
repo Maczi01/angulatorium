@@ -12,6 +12,7 @@ export class NavbarComponent {
     links = [
         { path: '/', title: 'Home' },
         { path: '/about', title: 'About' },
+        { path: '/blog', title: 'Articles' },
         { path: '/contact', title: 'Contact' },
     ];
 
